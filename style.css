@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    background-color: blue;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    padding-left: 120px;
+    padding-top: 20px;
+}
+
+#free{
+    background-color: white;
+    width: 280px;
+    height: 450px;
+   border-radius: 16px;
+}
+#free h1{
+    color: blue;
+    text-align: center;
+    padding-top: 40px;
+    font-weight: bolder;
+    font-size: 2.3em;
+}
+
+.textTitle{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    color: blue;
+}
+
+.textTitle p{
+    font-size: 1.2em;
+   
+
+}
+
+.textTitle h3{
+    font-size: 3.4em;
+    font-weight: bolder;
+    margin-top: -19px;
+}
+
+#free hr{
+    margin: 0 30px 40px 30px;
+    border: 1px grey solid;
+}
+
+.iconText{
+    display: flex;
+    gap: 12px;
+    padding-left: 20%;
+    padding-top: 10px;
+}
+
+.iconText i{
+    color: green;
+    font-size: 1.3em;
+}
+
+.iconText p{
+    color: gray;
+    font-weight: bolder;
+}
+
+button{
+    background-color: darkblue;
+    color: white;
+    padding: 8px 80px;
+    border: none;
+    margin: 120px 15% 10px 15%;
+    font-size: 1.2em;
+    border-radius: 20px;
+}
+
+.pro{
+    background-color: white;
+    width: 280px;
+    height: 470px;
+    border-radius: 20px;
+}
+
+.pro h1{
+    text-align: center;
+    color: blue;
+    font-size: 2.3em;
+    padding-top: 40px;
+}
+
+.proTextTitle{
+    display: flex;
+    justify-content: center;
+    color: blue;
+}
+.proTextTitle h2{
+    font-size: 3em;
+} 
+
+.proTextTitle p{
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.pro hr{
+    margin: 0 30px 40px 30px;
+}
+
+.prIconText{
+    display: flex;
+    padding-left: 12%;
+    gap: 15px;
+    padding-top: 10px;
+}
+.prIconText i{
+    font-size: 1.3em;
+} 
+
+.prIconText p{
+    font-size: 1.3em;
+} 
+
+
